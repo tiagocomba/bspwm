@@ -1,9 +1,9 @@
 # Ubuntu-Bspwm
-Esto es una configuracion sobre bspwm en ubuntu 23.10 en la cual conlleva una customización sobre la terminal, polybar, picom y mas complementos.
+> Esto es una configuracion sobre bspwm en ubuntu 23.10 en la cual conlleva una customización sobre la terminal, polybar, picom y mas complementos.
  ## Paquetes Principales:
- + bspwm ( al descargar bspwm se descarga automaticamente sxhkd)
+ + bspwm **(al descargar bspwm se descarga automaticamente sxhkd)**
  + polybar
- + suckless-tools ( esto es para el menu de selección de escritorios)
+ + suckless-tools **(esto es para el menu de selección de escritorios)**
 
  ## Paquetes Secundarios:
  + neofetch
@@ -20,26 +20,26 @@ Esto es una configuracion sobre bspwm en ubuntu 23.10 en la cual conlleva una cu
 
 #### En ubuntu hay que crear 3 directorios de configuracion para poder usarlo correctamente.
 
-mkdir ~/.config/bspwm
+`mkdir ~/.config/bspwm`
 
-mkdir ~/.config/sxhkd
+`mkdir ~/.config/sxhkd`
 
-mkdir ~/.config/polybar
+`mkdir ~/.config/polybar`
 
 #### Luego hay que copiar las configuraciones preterminadas de cada uno.
 
-cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+`cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/`
 
-cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
+`cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/`
 
-cp /usr/share/doc/polybar/examples/config.ini ~/.config/polybar/
+`cp /usr/share/doc/polybar/examples/config.ini ~/.config/polybar/`
 
 #### El siguiente paso es crear un ejecutable en la polybar para que se ejecute.
 
-$HOME/.config/polybar/launch.sh
+`$HOME/.config/polybar/launch.sh`
 
-configuracion del launch.sh:
-
+#### Configuracion del launch.sh:
+```
 #!/usr/bin/env bash
 
 # Terminate already running bar instances
@@ -53,6 +53,8 @@ echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
 polybar example 2>&1 | tee -a /tmp/polybar1.log & disown
 
 echo "Bars launched..."
+```
+
 
 
 
