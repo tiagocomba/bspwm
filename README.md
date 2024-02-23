@@ -1,8 +1,7 @@
 # Ubuntu-Bspwm
 Esto es una configuracion sobre bspwm en ubuntu 23.10 en la cual conlleva una customización sobre la terminal, polybar, picom y mas complementos.
  ## Paquetes Principales:
- + bspwm
- + sxhkd
+ + bspwm ( al descargar bspwm se descarga automaticamente sxhkd)
  + polybar
  + suckless-tools ( esto es para el menu de selección de escritorios)
 
@@ -26,6 +25,15 @@ mkdir ~/.config/bspwm
 mkdir ~/.config/sxhkd
 
 mkdir ~/.config/polybar
+
+Luego hay que copiar las configuraciones preterminadas de cada uno.
+
+cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+
+cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
+
+cp /usr/share/doc/polybar/examples/config.ini ~/.config/polybar/
+
 
 
 
