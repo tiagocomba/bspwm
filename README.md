@@ -54,6 +54,9 @@ polybar example 2>&1 | tee -a /tmp/polybar1.log & disown
 
 echo "Bars launched..."
 ```
+#### Ahora hay que otorgale permisos al ejecutable.
+
+`chmod +x $HOME/.config/polybar/launch.sh`
 
 
 
