@@ -1,5 +1,5 @@
 # Ubuntu-Bspwm
-> Esto es una configuracion sobre bspwm en ubuntu 23.10 en la cual conlleva una customización sobre la terminal, polybar, picom y mas complementos.
+> Esto es una configuración sobre bspwm en ubuntu 23.10 en la cual conlleva una customización sobre la terminal, polybar, picom y mas complementos.
  ## Paquetes Principales:
  + bspwm **(al descargar bspwm se descarga automaticamente sxhkd)**
  + polybar
@@ -18,7 +18,7 @@
 
 ### Pasos antes de cambiar a bspwm:
 
-#### En ubuntu hay que crear 3 directorios de configuracion para poder usarlo correctamente.
+#### En ubuntu hay que crear 3 directorios de configuración para poder usarlo correctamente.
 
 `mkdir ~/.config/bspwm`
 
@@ -38,7 +38,7 @@
 
 `$HOME/.config/polybar/launch.sh`
 
-#### Configuracion del launch.sh:
+#### Configuración del launch.sh:
 ```
 #!/usr/bin/env bash
 
