@@ -76,6 +76,14 @@ echo "Bars launched..."
 
 `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 
+### Descargas de Fuentes:
+
+`https://github.com/microsoft/cascadia-code.git`
+
+`sudo cp -r /home/tu-usuario/carpeta-donde-este-situada-la-fuente/cascadia-code /usr/share/fonts/opentype`
+
+
+
 
 
 
