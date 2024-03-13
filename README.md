@@ -59,7 +59,7 @@ echo "Bars launched..."
 
 `chmod +x $HOME/.config/polybar/launch.sh`
 
-#### Tambien otro paso extra es: Crear el directorio de config de Picom y Kitty.
+#### El Siguiente paso es: Crear el directorio de config de Picom y Kitty.
 
 `mkdir  ~/.config/picom`
 
@@ -68,6 +68,12 @@ echo "Bars launched..."
 `nano  ~/.config/kitty/kitty.conf`
 
 `nano  ~/.config/kitty/color.ini`
+
+### Ahora Descargar oh-my-zsh y powerlevel10k.
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 
 
 
