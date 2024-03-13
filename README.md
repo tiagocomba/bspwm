@@ -58,6 +58,12 @@ echo "Bars launched..."
 
 `chmod +x $HOME/.config/polybar/launch.sh`
 
+#### Tambien otro paso extra es: Crear el directorio de config de Picom
+
+`mkdir  ~/.config/picom`
+
+`nano  ~/.config/picom/picom.conf`
+
 
 
 
