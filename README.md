@@ -11,6 +11,7 @@
  + nitrogen
  + lxappearance
  + kitty
+ + thunar
  + picom
  + ranger
  + htop
