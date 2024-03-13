@@ -58,11 +58,15 @@ echo "Bars launched..."
 
 `chmod +x $HOME/.config/polybar/launch.sh`
 
-#### Tambien otro paso extra es: Crear el directorio de config de Picom
+#### Tambien otro paso extra es: Crear el directorio de config de Picom y Kitty.
 
 `mkdir  ~/.config/picom`
 
 `nano  ~/.config/picom/picom.conf`
+
+`nano  ~/.config/kitty/kitty.conf`
+
+`nano  ~/.config/kitty/color.ini`
 
 
 
