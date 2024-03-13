@@ -76,6 +76,16 @@ echo "Bars launched..."
 
 `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 
+### Descargar los Plugins de zsh:
+
+`sudo apt install  zsh-syntax-highlighting`
+
+`sudo apt install  zsh-autosuggestions`
+
+`echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> /home/tiago-comba/.zshrc`
+
+ `echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> /home/tiago-comba/.zshrc`
+
 ### Descargas de Fuentes:
 
 `https://github.com/microsoft/cascadia-code.git`
