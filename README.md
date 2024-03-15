@@ -7,6 +7,7 @@
 
  ## Paquetes Secundarios:
  + neofetch
+ + lolcat
  + git
  + nitrogen
  + lxappearance
