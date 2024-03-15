@@ -16,6 +16,8 @@
  + ranger
  + htop
  + zsh
+ + lsd
+ + bat
  + curl
 
 ### Pasos antes de cambiar a bspwm:
