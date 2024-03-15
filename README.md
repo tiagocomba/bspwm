@@ -106,6 +106,15 @@ Dentro de la carpeta donde lo hayamos descargado, entrar a nano-highlight y ejec
 
 `echo "include ~/.nano/syntax/ALL.nanorc >> ~/.nanorc"`
 
+### Personalizar Neofetch:
+
+Ir al perfil de: `https://github.com/Chick2D/neofetch-themes.git`
+
+Copiar la config que mas te guste y pegarla en:
+
+`.config/neofetch/config.conf`
+
+
 
 
 
