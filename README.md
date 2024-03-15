@@ -19,6 +19,7 @@
  + lsd
  + bat
  + curl
+ + make
 
 ### Pasos antes de cambiar a bspwm:
 
@@ -93,6 +94,14 @@ echo "Bars launched..."
 `https://github.com/microsoft/cascadia-code.git`
 
 `sudo cp -r /home/tu-usuario/carpeta-donde-este-situada-la-fuente/cascadia-code /usr/share/fonts/opentype`
+
+### Personalizar Nano:
+
+`git clone https://github.com/valerie-makes/nano-highlight.git`
+
+Dentro de la carpeta donde lo hayamos descargado, entrar a nano-highlight y ejecutar este comando:
+
+`make install`
 
 
 
