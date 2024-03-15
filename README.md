@@ -103,6 +103,8 @@ Dentro de la carpeta donde lo hayamos descargado, entrar a nano-highlight y ejec
 
 `make install`
 
+`echo "include ~/.nano/syntax/ALL.nanorc >> ~/.nanorc"`
+
 
 
 
