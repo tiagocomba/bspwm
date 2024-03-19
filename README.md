@@ -21,6 +21,8 @@
  + bat
  + curl
  + make
+ + pamixer
+ + pavucontrol
 
 ### Pasos antes de cambiar a bspwm:
 
