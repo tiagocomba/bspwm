@@ -17,6 +17,7 @@
  + ranger
  + htop
  + btop
+ + cava
  + zsh
  + lsd
  + bat
