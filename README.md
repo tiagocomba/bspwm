@@ -110,7 +110,7 @@ Dentro de la carpeta donde lo hayamos descargado, entrar a nano-highlight y ejec
 
 ### Personalizar Neofetch:
 
-Ir al perfil de: `https://github.com/Chick2D/neofetch-themes.git`
+Ir al perfil de: `https://github.com/Chick2D/neofetch-themes`
 
 Copiar la config que mas te guste y pegarla en:
 
