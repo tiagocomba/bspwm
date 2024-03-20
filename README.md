@@ -116,6 +116,21 @@ Copiar la config que mas te guste y pegarla en:
 
 `.config/neofetch/config.conf`
 
+### Personalizar Resolucion de pantalla:
+
+Crear un archivo en esta ruta, si existe solo editarlo:
+
+`sudo nano /etc/X11/xorg.conf`
+
+copiar segun tus preferencias:
+
+`Section "Monitor"
+    Identifier "Monitor0"
+    Option "PreferredMode" "1920x1080"
+    Option "RefreshRate" "75"
+EndSection`
+
+
 
 
 
