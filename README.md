@@ -16,6 +16,7 @@
  + picom
  + ranger
  + htop
+ + btop
  + zsh
  + lsd
  + bat
