@@ -133,7 +133,7 @@ copiar segun tus preferencias:
     Option "RefreshRate" "75"
 EndSection`
 
-### Fork de Picom animaciones:
+### Opcional Fork de Picom animaciones:
 
 Descargar las dependencias:
 
