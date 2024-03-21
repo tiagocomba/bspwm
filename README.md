@@ -19,6 +19,7 @@
  + btop
  + cava
  + zsh
+ + ninja
  + lsd
  + bat
  + curl
@@ -131,6 +132,43 @@ copiar segun tus preferencias:
     Option "PreferredMode" "1920x1080"
     Option "RefreshRate" "75"
 EndSection`
+
+### Fork de Picom animaciones:
+
+Descargar las dependencias:
+
+`libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev`
+
+Descargar ninja si aun no lo descargaste:
+
+`sudo apt install ninja-build`
+
+Luego clonar este repositorio:
+
+`https://github.com/pijulius/picom.git`
+
+Acceder a su carpeta:
+
+`cd picom`
+
+Build:
+
+`meson --buildtype=release . build`
+
+`ninja -C build`
+
+`sudo ninja -C build install`
+
+Reiniciar Picom:
+
+`killall picom`
+
+`picom &`
+
+
+
+
+
 
 
 
