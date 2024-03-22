@@ -145,7 +145,7 @@ Descargar ninja si aun no lo descargaste:
 
 Luego clonar este repositorio:
 
-`https://github.com/pijulius/picom.git`
+`git clone https://github.com/jonaburg/picom.git`
 
 Acceder a su carpeta:
 
