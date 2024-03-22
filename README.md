@@ -28,6 +28,7 @@
  + make
  + pamixer
  + pavucontrol
+ + playerctl
 
 ### Pasos antes de cambiar a bspwm:
 
