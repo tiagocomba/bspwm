@@ -18,6 +18,8 @@
  + htop
  + btop
  + cava
+ + cmatrix
+ + pipes.sh or pipes-sh
  + zsh
  + ninja
  + lsd
