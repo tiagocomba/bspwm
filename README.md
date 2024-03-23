@@ -168,6 +168,26 @@ Reiniciar Picom:
 
 `picom &`
 
+### Neomutt (gestor de correo en terminal):
+
+clonar primero este repositorio:
+
+`git clone https://github.com/neomutt/neomutt.git`
+
+Luego ir a la carpeta creada:
+
+`cd neomutt`
+
+Ejecutar estos comandos:
+
+`./configure`
+
+si te sale algun error descargar las dependencias restantes.
+
+`make`
+
+`make install`
+
 
 
 
