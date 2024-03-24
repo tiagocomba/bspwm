@@ -206,6 +206,10 @@ Tambien puede estar los temas de rofi en esta carpeta:
 
 `sudo cp -r nord/nord.rasi $HOME/.local/share/rofi/themes/`
 
+Si no queres copiar cada uno de las config ejecuta este comando:
+
+`sudo find ~/rofi-collection -name "*.rasi" -exec cp {} /usr/share/rofi/themes/ \;`
+
 Luego en la terminal ejecutar este comando y elegir el tema:
 
 `rofi-theme-selector`
