@@ -188,6 +188,27 @@ si te sale algun error descargar las dependencias restantes.
 
 `make install`
 
+### Themes Rofi:
+
+Clonar este repositorio:
+
+`git clone https://github.com/Murzchnvok/rofi-collection.git`
+
+Entrar al directorio:
+
+`cd rofi-collection`
+
+Copiar la config que te guste:
+
+`sudo cp -r nord/nord.rasi /usr/share/rofi/themes/`
+
+Tambien puede estar los temas de rofi en esta carpeta:
+
+`sudo cp -r nord/nord.rasi $HOME/.local/share/rofi/themes/`
+
+Luego en la terminal ejecutar este comando y elegir el tema:
+
+`rofi-theme-selector`
 
 
 
