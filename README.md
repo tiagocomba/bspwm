@@ -223,10 +223,12 @@ Clonear el repositorio de Neovim:
 
 Instalar neovim:
 
-`cd neovim
+```
+cd neovim
 make CMAKE_BUILD_TYPE=Release
 sudo make install
-`
+```
+
 Resetear la carpeta de config:
 
 `rm -rf  ~/.config/nvim`
