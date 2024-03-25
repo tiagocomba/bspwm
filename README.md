@@ -215,6 +215,38 @@ Luego en la terminal ejecutar este comando y elegir el tema:
 
 `rofi-theme-selector`
 
+### Descargar Neovim y LazyVim
+
+Clonear el repositorio de Neovim:
+
+`git clone https://github.com/neovim/neovim.git`
+
+Instalar neovim:
+
+`cd neovim
+make CMAKE_BUILD_TYPE=Release
+sudo make install
+`
+Resetear la carpeta de config:
+
+`rm -rf  ~/.config/nvim`
+
+Opcional:
+
+`rm -rf  ~/.local/share/nvim`
+
+`rm -rf  ~/.local/state/nvim`
+
+`rm -rf  ~/.cache/nvim`
+
+Clonar LazyVim:
+
+`git clone https://github.com/LazyVim/starter ~/.config/nvim`
+
+Luego entrar a nvim y se descargara LazyVim y listo.
+
+
+
 
 
 
