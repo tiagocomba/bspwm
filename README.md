@@ -21,7 +21,7 @@
  + cmatrix
  + pipes.sh or pipes-sh
  + zsh
- + vim
+ + neovim
  + ninja
  + lsd
  + bat
