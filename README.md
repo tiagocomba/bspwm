@@ -19,6 +19,7 @@
  + btop
  + cava
  + cmatrix
+ + tty-clock
  + pipes.sh or pipes-sh
  + zsh
  + neovim
