@@ -1,0 +1,9 @@
+configuration {
+    font: "Cascadia Code Medium 12";
+}
+
+* {
+    bg: #18181B;
+    fg: #A0A0AB;
+}
+@theme "/usr/share/rofi/themes/tokyonight.rasi"

@@ -1,0 +1,26 @@
+theme = "tokyonight_storm"
+
+[editor]
+line-number = "relative"  
+cursorline = true
+bufferline = "always"
+scrolloff = 10
+color-modes = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.indent-guides]
+render = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "bar"
+select = "underline"
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+left = ["mode", "spacer", "diagnostics", "workspace-diagnostics", "spinner"]
+right = ["file-name", "spacer", "position-percentage", "spacer"]
