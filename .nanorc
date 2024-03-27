@@ -1,0 +1,14 @@
+## Habilitar el resaltado de sintaxis para diferentes tipos de archivos
+include "/usr/share/nano/*.nanorc"
+
+## Ajustes de formato y visualización
+set tabsize 4           # Tamaño de la tabulación
+set tabstospaces        # Convertir las tabulaciones en espacios
+set autoindent          # Indentación automática
+set softwrap            # Envolver líneas largas
+set nohelp              # Ocultar la barra de ayuda
+
+## Atajos de teclado personalizados
+bind ^S savefile main    # Ctrl + S para guardar el archivo
+bind ^X exit main       # Ctrl + X para salir de Nano
+bind ^G whereis main    # Ctrl + G para buscar texto
