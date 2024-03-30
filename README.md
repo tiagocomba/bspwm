@@ -10,6 +10,7 @@
  + lolcat
  + git
  + nitrogen
+ + feh
  + lxappearance
  + kitty
  + thunar
