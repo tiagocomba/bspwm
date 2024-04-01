@@ -32,6 +32,7 @@
  + pamixer
  + pavucontrol
  + playerctl
+ + dunst
 
 ### Pasos antes de cambiar a bspwm:
 
