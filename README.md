@@ -33,6 +33,7 @@
  + pavucontrol
  + playerctl
  + dunst
+ + flameshot
 
 ### Pasos antes de cambiar a bspwm:
 
