@@ -34,6 +34,7 @@
  + playerctl
  + dunst
  + flameshot
+ + xsecurelock
 
 ### Pasos antes de cambiar a bspwm:
 
