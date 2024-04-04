@@ -36,6 +36,7 @@
  + flameshot
  + xsecurelock
  + lightdm
+ + Betterlockscreen
 
 ### Pasos antes de cambiar a bspwm:
 
