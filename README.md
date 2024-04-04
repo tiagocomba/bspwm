@@ -35,6 +35,7 @@
  + dunst
  + flameshot
  + xsecurelock
+ + lightdm
 
 ### Pasos antes de cambiar a bspwm:
 
