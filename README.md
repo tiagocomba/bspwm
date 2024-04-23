@@ -1,5 +1,10 @@
 # Ubuntu-Bspwm
 > Esto es una configuración sobre bspwm en ubuntu 23.10 en la cual conlleva una customización sobre la terminal, polybar, picom y mas complementos.
+
+<p align="center">
+  <img src="showcase/ubuntu.gif" alt="urbix" width="800" height="300">
+</p>
+
  ## Paquetes Principales:
  + bspwm **(al descargar bspwm se descarga automaticamente sxhkd)**
  + polybar
